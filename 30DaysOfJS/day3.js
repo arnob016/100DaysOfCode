@@ -8,7 +8,6 @@ const readPerm = 4;
 const writePerm = 2;
 const adminPerm = 1;
 let myPermission = 0;
-
 myPermission= myPermission | readPerm | writePerm
 
 let Permission = (myPermission & readPerm) ? 'yes' : 'no';
