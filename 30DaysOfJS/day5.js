@@ -30,3 +30,5 @@ for(let key in MySelf){
 for(let index in FavFood){
     console.log(index, FavFood[index]);
 }
+for (let item of FavFood)
+    console.log(item)
